@@ -1,0 +1,28 @@
+/* Commom */
+"common_ok" = "Ok";
+"common_cancel" = "Cancel";
+"common_pay" = "Pay";
+"common_next" = "Next";
+"common_close" = "Close";
+"common_done" = "Done";
+"common_error" = "Common error";
+"common_email_hint" = "Email";
+"common_phone_hint" = "Phone";
+"common_password_hint" = "Password";
+"common_amount_hint" = "Amount";
+"common_description_hint" = "Description";
+"common_no_description" = "no description";
+"common_retry" = "Retry";
+"common_continue" = "Continue";
+"common_copy_to_clipboard" = "Сopy to clipboard";
+
+/* Initial */
+"initial_printer_state" = "Printer state";
+"initial_printer_state_connected" = "connected";
+"initial_printer_state_disconnected" = "disconnected";
+"initial_printer_title" = "Printer title";
+"initial_scan" = "Scan";
+"initial_disconnect" = "Disconnect";
+"initial_print_invoice" = "Print test invoice";
+"initial_print_text" = "Print text";
+"initial_print_qr" = "Print QR";

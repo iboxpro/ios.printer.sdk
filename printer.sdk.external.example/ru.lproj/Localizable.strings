@@ -1,0 +1,28 @@
+/* Commom */
+"common_ok" = "Ок";
+"common_cancel" = "Отмена";
+"common_pay" = "Оплата";
+"common_next" = "Далее";
+"common_close" = "Закрыть";
+"common_done" = "Готово";
+"common_error" = "Произошла ошибка";
+"common_email_hint" = "Email";
+"common_phone_hint" = "Телефон";
+"common_password_hint" = "Пароль";
+"common_amount_hint" = "Сумма";
+"common_description_hint" = "Описание";
+"common_no_description" = "Описание отсутствует";
+"common_retry" = "Повтроить";
+"common_continue" = "Продолжить";
+"common_copy_to_clipboard" = "Скопировано в буфер обмена";
+
+/* Initial */
+"initial_printer_state" = "Состояние принтера";
+"initial_printer_state_connected" = "подключен";
+"initial_printer_state_disconnected" = "одключен";
+"initial_printer_title" = "Название принтера";
+"initial_scan" = "Сканирование";
+"initial_disconnect" = "Одключить";
+"initial_print_invoice" = "Печать тестового чекаe";
+"initial_print_text" = "Печать текста";
+"initial_print_qr" = "Печать QR";

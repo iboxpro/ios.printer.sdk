@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03017BBC2289581400E7DC80 /* Initial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03017BB22289581400E7DC80 /* Initial.xib */; };
+		03017BBD2289581400E7DC80 /* Initial.m in Sources */ = {isa = PBXBuildFile; fileRef = 03017BB42289581400E7DC80 /* Initial.m */; };
+		03017BBE2289581400E7DC80 /* PrinterScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 03017BB62289581400E7DC80 /* PrinterScanner.m */; };
+		03017BBF2289581400E7DC80 /* PrinterScanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03017BB72289581400E7DC80 /* PrinterScanner.xib */; };
+		03017BC02289581400E7DC80 /* PrinterScannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03017BB82289581400E7DC80 /* PrinterScannerCell.m */; };
+		03017BC12289581400E7DC80 /* PrinterScannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03017BBA2289581400E7DC80 /* PrinterScannerCell.xib */; };
+		03017BC422896D8300E7DC80 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 03017BC222896D8300E7DC80 /* Utility.m */; };
+		03017BC722896E2900E7DC80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03017BC922896E2900E7DC80 /* Localizable.strings */; };
+		03EE16E02285B71F0030122D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE16DF2285B71F0030122D /* AppDelegate.m */; };
+		03EE16E82285B7210030122D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EE16E72285B7210030122D /* Assets.xcassets */; };
+		03EE16EB2285B7210030122D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EE16E92285B7210030122D /* LaunchScreen.storyboard */; };
+		03EE16EE2285B7210030122D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE16ED2285B7210030122D /* main.m */; };
+		03EE16F82285B7E20030122D /* libprinter.sdk.external.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE16F52285B7E20030122D /* libprinter.sdk.external.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03017BB22289581400E7DC80 /* Initial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Initial.xib; sourceTree = "<group>"; };
+		03017BB32289581400E7DC80 /* Initial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initial.h; sourceTree = "<group>"; };
+		03017BB42289581400E7DC80 /* Initial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initial.m; sourceTree = "<group>"; };
+		03017BB62289581400E7DC80 /* PrinterScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterScanner.m; sourceTree = "<group>"; };
+		03017BB72289581400E7DC80 /* PrinterScanner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrinterScanner.xib; sourceTree = "<group>"; };
+		03017BB82289581400E7DC80 /* PrinterScannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterScannerCell.m; sourceTree = "<group>"; };
+		03017BB92289581400E7DC80 /* PrinterScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterScanner.h; sourceTree = "<group>"; };
+		03017BBA2289581400E7DC80 /* PrinterScannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrinterScannerCell.xib; sourceTree = "<group>"; };
+		03017BBB2289581400E7DC80 /* PrinterScannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterScannerCell.h; sourceTree = "<group>"; };
+		03017BC222896D8300E7DC80 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		03017BC322896D8300E7DC80 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		03017BC822896E2900E7DC80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03017BCA22896E6D00E7DC80 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03017BCC2289702A00E7DC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03017BD02289738000E7DC80 /* PrinterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterController.h; sourceTree = "<group>"; };
+		03EE16DB2285B71F0030122D /* printer.sdk.external.example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = printer.sdk.external.example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EE16DE2285B71F0030122D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03EE16DF2285B71F0030122D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03EE16E72285B7210030122D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03EE16EC2285B7210030122D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EE16ED2285B7210030122D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03EE16F52285B7E20030122D /* libprinter.sdk.external.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libprinter.sdk.external.a; sourceTree = "<group>"; };
+		03EE16F62285B7E20030122D /* PrinterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterDelegate.h; sourceTree = "<group>"; };
+		03EE16F72285B7E20030122D /* PrinterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterHandler.h; sourceTree = "<group>"; };
+		03EE16F92285BA670030122D /* BTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDevice.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EE16D82285B71F0030122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE16F82285B7E20030122D /* libprinter.sdk.external.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03017BB02289581400E7DC80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03017BB12289581400E7DC80 /* Initial */,
+				03017BB52289581400E7DC80 /* PrinterScanner */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03017BB12289581400E7DC80 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				03017BB32289581400E7DC80 /* Initial.h */,
+				03017BB42289581400E7DC80 /* Initial.m */,
+				03017BB22289581400E7DC80 /* Initial.xib */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		03017BB52289581400E7DC80 /* PrinterScanner */ = {
+			isa = PBXGroup;
+			children = (
+				03017BB92289581400E7DC80 /* PrinterScanner.h */,
+				03017BB62289581400E7DC80 /* PrinterScanner.m */,
+				03017BB72289581400E7DC80 /* PrinterScanner.xib */,
+				03017BBB2289581400E7DC80 /* PrinterScannerCell.h */,
+				03017BB82289581400E7DC80 /* PrinterScannerCell.m */,
+				03017BBA2289581400E7DC80 /* PrinterScannerCell.xib */,
+			);
+			path = PrinterScanner;
+			sourceTree = "<group>";
+		};
+		03EE16D22285B71F0030122D = {
+			isa = PBXGroup;
+			children = (
+				03EE16DD2285B71F0030122D /* printer.sdk.external.example */,
+				03EE16DC2285B71F0030122D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EE16DC2285B71F0030122D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EE16DB2285B71F0030122D /* printer.sdk.external.example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EE16DD2285B71F0030122D /* printer.sdk.external.example */ = {
+			isa = PBXGroup;
+			children = (
+				03EE16F42285B7E20030122D /* PrinterSDK */,
+				03017BB02289581400E7DC80 /* Views */,
+				03EE16DE2285B71F0030122D /* AppDelegate.h */,
+				03EE16DF2285B71F0030122D /* AppDelegate.m */,
+				03017BC322896D8300E7DC80 /* Utility.h */,
+				03017BC222896D8300E7DC80 /* Utility.m */,
+				03EE16E72285B7210030122D /* Assets.xcassets */,
+				03EE16E92285B7210030122D /* LaunchScreen.storyboard */,
+				03EE16EC2285B7210030122D /* Info.plist */,
+				03EE16ED2285B7210030122D /* main.m */,
+				03017BC922896E2900E7DC80 /* Localizable.strings */,
+			);
+			path = printer.sdk.external.example;
+			sourceTree = "<group>";
+		};
+		03EE16F42285B7E20030122D /* PrinterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				03EE16F52285B7E20030122D /* libprinter.sdk.external.a */,
+				03017BD02289738000E7DC80 /* PrinterController.h */,
+				03EE16F62285B7E20030122D /* PrinterDelegate.h */,
+				03EE16F72285B7E20030122D /* PrinterHandler.h */,
+				03EE16F92285BA670030122D /* BTDevice.h */,
+			);
+			path = PrinterSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EE16DA2285B71F0030122D /* printer.sdk.external.example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EE16F12285B7210030122D /* Build configuration list for PBXNativeTarget "printer.sdk.external.example" */;
+			buildPhases = (
+				03EE16D72285B71F0030122D /* Sources */,
+				03EE16D82285B71F0030122D /* Frameworks */,
+				03EE16D92285B71F0030122D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = printer.sdk.external.example;
+			productName = printer.sdk.external.example;
+			productReference = 03EE16DB2285B71F0030122D /* printer.sdk.external.example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EE16D32285B71F0030122D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = investbank;
+				TargetAttributes = {
+					03EE16DA2285B71F0030122D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 03EE16D62285B71F0030122D /* Build configuration list for PBXProject "printer.sdk.external.example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 03EE16D22285B71F0030122D;
+			productRefGroup = 03EE16DC2285B71F0030122D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EE16DA2285B71F0030122D /* printer.sdk.external.example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EE16D92285B71F0030122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE16EB2285B7210030122D /* LaunchScreen.storyboard in Resources */,
+				03017BC722896E2900E7DC80 /* Localizable.strings in Resources */,
+				03017BC12289581400E7DC80 /* PrinterScannerCell.xib in Resources */,
+				03017BBF2289581400E7DC80 /* PrinterScanner.xib in Resources */,
+				03EE16E82285B7210030122D /* Assets.xcassets in Resources */,
+				03017BBC2289581400E7DC80 /* Initial.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EE16D72285B71F0030122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03017BC02289581400E7DC80 /* PrinterScannerCell.m in Sources */,
+				03EE16EE2285B7210030122D /* main.m in Sources */,
+				03017BBE2289581400E7DC80 /* PrinterScanner.m in Sources */,
+				03017BBD2289581400E7DC80 /* Initial.m in Sources */,
+				03017BC422896D8300E7DC80 /* Utility.m in Sources */,
+				03EE16E02285B71F0030122D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03017BC922896E2900E7DC80 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03017BC822896E2900E7DC80 /* en */,
+				03017BCA22896E6D00E7DC80 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		03EE16E92285B7210030122D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03017BCC2289702A00E7DC80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EE16EF2285B7210030122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03EE16F02285B7210030122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EE16F22285B7210030122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW69G8A5NY;
+				INFOPLIST_FILE = printer.sdk.external.example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/printer.sdk.external.example/PrinterSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.investbank.printer-sdk-external-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03EE16F32285B7210030122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW69G8A5NY;
+				INFOPLIST_FILE = printer.sdk.external.example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/printer.sdk.external.example/PrinterSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.investbank.printer-sdk-external-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EE16D62285B71F0030122D /* Build configuration list for PBXProject "printer.sdk.external.example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EE16EF2285B7210030122D /* Debug */,
+				03EE16F02285B7210030122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EE16F12285B7210030122D /* Build configuration list for PBXNativeTarget "printer.sdk.external.example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EE16F22285B7210030122D /* Debug */,
+				03EE16F32285B7210030122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EE16D32285B71F0030122D /* Project object */;
+}
